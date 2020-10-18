@@ -24,7 +24,7 @@ const Register = () => {
         <Col sm="12" md={{ size: 5, offset: 3 }}>
           <div className="paper">
             <div className="header">
-              <img src="https://strapi.io/assets/images/logo.png" />
+              <img src="https://snipcart.com/media/204940/strapi-tutorial.png" />
             </div>
             <section className="wrapper">
               {Object.entries(error).length !== 0 &&
@@ -128,9 +128,9 @@ const Register = () => {
           }
           .header {
             width: 100%;
-            height: 120px;
+            height: auto;
             background-color: #2196f3;
-            margin-bottom: 30px;
+            margin-bottom: 15px;
             border-radius-top: 6px;
           }
           .wrapper {
@@ -140,7 +140,10 @@ const Register = () => {
             color: blue !important;
           }
           img {
-            margin: 15px 30px 10px 50px;
+            margin: 0;
+            width: 100%;
+            height: 180px;
+            border-bottom: 2px solid #2196f3;
           }
         `}
       </style>
