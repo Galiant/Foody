@@ -25,7 +25,9 @@ function Home() {
         {`
           .search {
             margin: 20px;
-            width: 500px;
+            width: 100%;
+            margin-left: 10px;
+            padding-right: 15px;
           }
         `}
       </style>

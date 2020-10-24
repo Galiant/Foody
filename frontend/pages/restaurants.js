@@ -51,7 +51,7 @@ function Restaurants() {
         <h1>{restaurant.name}</h1>
         <Row>
           {restaurant.dishes.map(res => (
-            <Col xs="6" sm="4" style={{ padding: 0 }} key={res.id}>
+            <Col xs="12" sm="6" style={{ padding: 0 }} key={res.id}>
               <Card style={{ margin: "0 10px" }}>
                 <CardImg
                   top={true}
@@ -95,7 +95,7 @@ function Restaurants() {
               </Card>
             </Col>
           ))}
-          <Col xs="3" style={{ padding: 0 }}>
+          <Col xs="12" sm="6" style={{ padding: 0 }}>
             <div>
               <Cart />
             </div>

@@ -33,7 +33,7 @@ function Login(props) {
   return (
     <Container>
       <Row>
-        <Col sm="12" md={{ size: 5, offset: 3 }}>
+        <Col sm="12" md={{ size: 8, offset: 2 }}>
           <div className="paper">
             <div className="header">
               <img src="https://snipcart.com/media/204940/strapi-tutorial.png" />
